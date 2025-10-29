@@ -51,9 +51,9 @@ main {
       margin-left: 1rem;
     }
   }
-  article{
+  article {
     display: flex;
-    div{
+    div {
       display: flex;
       width: 100%;
       align-items: center;
@@ -66,17 +66,32 @@ main {
       padding: 20px;
     }
   }
-  div{
+  div {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     background-color: #87cefa;
     border-radius: 50px;
     margin-bottom: 1rem;
-    padding:1rem;
-    p{
+    padding: 1rem;
+    p {
       color: #0000ff;
-      
     }
+  }
+}
+footer {
+  display: flex;
+  justify-content: center;
+  div {
+    background-color: #0078c2;
+    border-radius: 25px;
+    padding: 3px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  img {
+    width: 2rem;
+    height: 2rem;
   }
 }
